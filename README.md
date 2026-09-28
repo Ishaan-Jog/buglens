@@ -259,13 +259,10 @@ The project also requires the **NIST Juliet C/C++ Test Suite 1.3** for the datas
 
 ## 1. Clone or download the project
 
-Place the project in a directory such as:
-
-```text
-C:\Projects\BugLens
+```bash
+git clone https://github.com/Ishaan-Jog/buglens.git
+cd buglens
 ```
-
-Open a terminal in the project directory.
 
 ## 2. Create a virtual environment
 
@@ -286,14 +283,14 @@ source .venv/bin/activate
 ## 3. Install dependencies
 
 ```bash
-pip install streamlit pandas numpy scikit-learn matplotlib seaborn joblib
+pip install -r requirements.txt
 ```
 
 ---
 
 # 📦 Dataset Setup
 
-Download the **NIST Juliet C/C++ Test Suite 1.3** and place the extracted dataset inside:
+Download the (NIST Juliet C/C++ Test Suite 1.3)[https://samate.nist.gov/SARD/test-suites/112] and place the extracted dataset inside:
 
 ```text
 dataset/juliet/
