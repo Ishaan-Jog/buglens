@@ -290,7 +290,7 @@ pip install -r requirements.txt
 
 # 📦 Dataset Setup
 
-Download the (NIST Juliet C/C++ Test Suite 1.3)[https://samate.nist.gov/SARD/test-suites/112] and place the extracted dataset inside:
+Download the [NIST Juliet C/C++ Test Suite 1.3](https://samate.nist.gov/SARD/test-suites/112) and place the extracted dataset inside:
 
 ```text
 dataset/juliet/
